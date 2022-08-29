@@ -4,3 +4,13 @@
 	}
 	
 	
+	
+	@Test
+		public void facebook1() {
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		String urls = driver.getCurrentUrl();
+		System.out.println(urls);
+		
+	}
+	
