@@ -3,17 +3,4 @@
 		System.out.println("connect to data base");
 	}
 	
-	@BeforeClass
-	public void BC() {
-		System.out.println("launch the browser");
-	}
-	
-	@Test
-		public void facebook1() {
-		WebDriver driver = new ChromeDriver();
-		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		String urls = driver.getCurrentUrl();
-		System.out.println(urls);
-		
-	}
 	
