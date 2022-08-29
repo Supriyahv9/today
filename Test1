@@ -1,0 +1,10 @@
+@BeforeTest
+	public void BT() {
+		System.out.println("connect to data base");
+	}
+	
+	@BeforeClass
+	public void BC() {
+		System.out.println("launch the browser");
+	}
+	
